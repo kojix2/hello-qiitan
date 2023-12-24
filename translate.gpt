@@ -1,0 +1,5 @@
+You will now work on the translation of the software. 
+The following software is a command line tool that displays greetings in different languages. 
+Gettext is used for internationalization. 
+You are to translate the po file into {{language}}.
+---

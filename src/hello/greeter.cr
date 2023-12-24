@@ -3,13 +3,13 @@ module Hello
     def greet(name : String, period : String?)
       case period
       when "morning"
-        puts "Good morning, #{name}!"
+        puts Gettext.gettext("Good morning, #{name}!")
       when "afternoon"
-        puts "Good afternoon, #{name}!"
+        puts Gettext.gettext("Good afternoon, #{name}!")
       when "evening"
-        puts "Good evening, #{name}!"
+        puts Gettext.gettext("Good evening, #{name}!")
       else
-        puts "Hi #{name}! How are you?"
+        puts Gettext.gettext("Hi #{name}! How are you?")
       end
     end
   end

@@ -1,0 +1,5 @@
+src/hello/options.cr
+src/hello/version.cr
+src/hello/greeter.cr
+src/hello/parser.cr
+src/hello.cr

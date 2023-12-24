@@ -1,2 +1,6 @@
 version: 2.0
-shards: {}
+shards:
+  gettext:
+    git: https://github.com/geopjr/gettext.cr.git
+    version: 1.0.0
+

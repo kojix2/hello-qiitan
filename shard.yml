@@ -8,6 +8,10 @@ targets:
   hello:
     main: src/hello.cr
 
+dependencies:
+  gettext:
+    github: GeopJr/gettext.cr
+
 crystal: '>= 1.11.0-dev'
 
 license: MIT
