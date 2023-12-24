@@ -4,8 +4,8 @@ require "./hello/greeter"
 
 # Gettextの初期化
 Gettext.setlocale(Gettext::LC::ALL, "")
-Gettext.bindtextdomain("com.qiita.kojix2.hello-qiitan", {{env("HELLO_QIITAN_LOCALE_LOCATION") || "/usr/share/locale"}})
-Gettext.textdomain("com.qiita.kojix2.hello-qiitan")
+Gettext.bindtextdomain("qiitan", "/home/kojix2/Crystal/hello-qiitan")
+Gettext.textdomain("qiitan")
 
 # コマンドラインパーサーを作成し、コマンドラインオプションをパースする
 options = Hello::Parser.new.parse
